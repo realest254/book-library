@@ -78,7 +78,7 @@
     overflow-x: auto;
     white-space: nowrap;
     padding: 10px;
-    background-image: url(lib-photos/cool-pic.jpg);
+    background-image: url(./lib-photos/cool-pic.jpg);
     background-size: cover;
     max-width: 1000px;
   }
