@@ -125,7 +125,7 @@ form.addEventListener("submit", (event) => {
     } else {
         console.log("next page");
         event.preventDefault();
-        window.location.href = '../src/index.html';
+        window.location.href = '../src/main.html';
     }
 });
 
