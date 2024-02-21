@@ -1,0 +1,21 @@
+{
+  "name": "book-library",
+  "version": "1.0.0",
+  "description": "A simple web application for managing your book collection.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open",
+    "build": "webpack --config webpack.config.js",
+    "publisGit": "git subtree push --prefix dist origin gh-pages"
+  },
+  "author": "peter maina",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.10.0",
+    "style-loader": "^3.3.4",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  }
+}
